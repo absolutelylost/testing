@@ -1,0 +1,195 @@
+*{
+      box-sizing: border-box;
+}
+.topnav{
+    position: fixed;
+    background-color: white;
+    outline-color: gainsboro;
+    width: 100%;
+    top: 65px;
+/*    move nave bar to the left to cover gap*/
+    right: 0px;
+/*    border: 1px solid black;*/
+    border-bottom:1px solid grey;
+/*    add space in nav bar from the left */
+/*    padding-left: 10px; */
+    font-size: 17px;
+    font-family: cursive;
+    font-weight: bold;
+    box-shadow: 2px 5px 5px darkgray;
+    text-decoration: none;
+    overflow: hidden;
+    text-align: center;
+
+}
+
+.topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 1px 5px 1px 1px;
+    text-decoration: none;
+    font-size: 20px;
+}
+a:visited{
+    color: grey;
+}
+a:link{
+    color: black;
+}
+.topnav input{
+    float: left;
+    color: black;
+    padding: 5px 5px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav button{
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 5px 5px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: lawngreen;
+  color: white;
+}
+
+#logo{
+    transform: scale(1.2);
+    position: fixed;
+    background-color: white;
+    outline-color: gainsboro;
+    width: 100%;
+    top: 0;
+/*    move nave bar to the left to cover gap*/
+    right: 0;
+/*    border-bottom:1px solid grey;*/
+/*    add space in nav bar from the left */
+    padding-top: 12px; 
+    font-size: 17px;
+    font-family: cursive;
+    text-decoration: none;
+    overflow: hidden;  
+    text-align: center;
+    
+}
+.pgcontent{
+    background-color: white;
+    align-items: center;
+}
+
+body {
+    background-color: white;
+    color: black;
+    border: 20px solid black;  
+}
+
+#navright{
+    float: right;
+    text-align: center;
+    overflow: hidden;
+    padding-top: 15px;
+}
+
+#services {
+    text-align: center;
+    text-transform: capitalize;
+    text-shadow: 1px 1px 1px grey;
+/*    background-color: darkgrey;*/
+    background-image: linear-gradient(to bottom right, white, darkgrey)
+}
+
+#handmade{
+    color: darkcyan;
+}
+#machinesown{
+    color: dodgerblue;
+}
+.content{
+    margin-top: 80px;
+    margin-left: -18px;
+    margin-right: -18px;
+    
+}
+
+table, th {
+    border: 1px solid black; 
+    color: black;
+    border-spacing: 15px;
+    border:none;
+    color: black;
+}
+
+tr{
+    text-align: center;
+    border: none;
+    color: black;    
+}
+td{
+    box-shadow: 5px 5px 5px darkgrey;
+    color: black;
+
+}
+
+.productTable a{
+    border: 5px;
+    color: black;
+    text-align: center;
+    padding: 8px 5px 1px 1px;
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+
+}
+
+.productTable a:hover{
+    background-color: #ddd;   
+    color: black;
+}
+
+img {
+    border-radius: 10%;
+}
+
+
+ul li::marker{
+    color:red;
+}
+
+#about{
+    padding-left: 15px;
+    color: black;
+    background-color: white;
+}
+
+
+#video{
+    position: relative;
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 12px;
+    margin: 0 auto;
+}
+
+footer{
+    background-color: black;
+    color:white;
+}
+.contact{
+    color:white;
+    font-size: 14px;
+}
+.contact a{
+    color: aqua;
+}
